@@ -1,0 +1,160 @@
+/* định dạng font chữ*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+html{
+    font-family: 'Quicksand', sans-serif;
+}
+
+*{
+margin:0;
+padding: 0;
+
+}/* làm cố định header*/
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+}
+/* phan dau tien trong web*/
+.thongbao{
+    height: 45px;
+    font-size: 30px;
+    text-align: center;
+    background:#ddc8c8;
+    color:rgb(196, 0, 0);
+   
+   }
+   .logothuonghieu{
+    width:8%;
+
+}
+   /* phần menu*/
+   .menu-logo{
+       width: 100%;
+       height: 65px;
+       margin: 0 ;
+       background: #ee5353;
+       position: relative;
+      
+   }
+   .menu-logo .logo{
+       position:absolute;
+       left:200px;
+   }
+   .menu-logo nav a{
+       text-decoration: none;
+       color:#000000;
+       line-height:66px ;
+       margin:0 59px;
+       text-align: center;
+   }
+   /* đổi màu chữ khi lick vô */
+   .menu-logo nav a:hover{
+       color:rgb(251, 255, 252);
+       font-weight: bold;
+       background-color: rgb(116, 192, 228); 
+       padding: 19.5px;
+   }
+
+/*css footer*/
+.product .heading{ 
+    margin:15px auto ;}
+     /*định dạng xune.ze*/
+  .product .heading3{
+    COLOR:RED;
+    text-align-last: center;
+ }
+footer{
+   
+    width: 100%;
+    color:rgb(249, 250, 218);
+    background:rgb(165, 50, 42);
+    text-align-last: center;
+}
+footer .footer-item{
+    width: 25%;/* căn khoảng cách nội dung*/
+    display: inline-block;
+    text-align-last: center;
+}  
+/*hover cho chữ ở cuối văn bản */
+footer .footer-item :hover{
+    color: #000;
+}
+footer .footer-item p{
+    margin: 10px;
+}
+footer .link a{
+    display: block;
+    text-decoration: none;
+    color:cornsilk;
+    margin: 10px;
+    text-align-last: center;
+}
+footer .about a{
+    display: block;
+    color:rgb(241, 248, 214);
+    text-decoration: none;
+    text-align: center;
+}
+.tacgia{
+    background:rgb(0, 0, 0);
+    color: rgb(247, 240, 240);
+    text-align: center;
+    padding: 10px;}
+
+
+/* css cho login */
+.login-form{
+    padding-top: 150px;
+   
+    margin-top: 300px;
+    width:60%;
+    margin-top:  0 auto;
+    margin: 0 auto;
+    
+}
+.login-form form{
+    display: flex;
+    /* dán các thẻ con thành hàng dọc */
+    flex-direction:column;
+}
+
+.login-form form input{
+    padding: 15px 15px;
+    border:1px solid rgb(78, 76, 76);
+    outline:none;
+    margin:15px 0px;
+    border-radius: 5px;
+}
+ 
+.login-form form input:focus{
+    background: #dee7a8;
+    color:rgb(0, 0, 0);
+    transition: all .4s linear;
+}
+.login-form form button{
+    padding: 15px;
+    background: rgb(241, 248, 214);
+    border:1px solid rgb(161, 39, 18);
+    font-size:20px;
+    font-weight:bold;
+    color:rgb(196, 60, 6)
+}
+.login-form form button:hover{
+    background: #dd5454;
+    color:aliceblue;
+    transition: all .4s linear;
+}
+.link-login{
+    text-decoration: none;
+    color:rgb(73, 7, 7);
+    margin: 30px 0;
+    display: block;
+}
+.link-login:hover{
+    color: rgb(235, 72, 81);
+    transition:all .3s linear;
+}
+body{
+    background-color: rgb(250, 241, 241);
+}

@@ -1,0 +1,229 @@
+/* định dạng font chữ*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+html{
+    font-family: 'Quicksand', sans-serif;
+}
+
+*{
+margin:0;
+padding: 0;
+
+}/* làm cố định header*/
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+}
+.thongbao{
+    height: 45px;
+    font-size: 30px;
+    text-align: center;
+    background:#ddc8c8;
+    color:rgb(196, 0, 0);
+   
+   }
+   .logothuonghieu{
+       width:8%;
+
+   }
+   /* phần menu*/
+   .menu-logo{
+       width: 100%;
+       height: 64px;
+       margin: 0 ;
+       background: #ee5353;
+       position: relative;
+       text-align: center;
+   }
+ 
+   
+   .menu-logo .logo{
+       position:absolute;
+       left:200px;
+        text-align: center;
+   }
+   .menu-logo nav a{
+       text-decoration: none;
+       color:#000000;
+       line-height:66px ;
+       margin:0 59px;
+       text-align: center;
+   }
+   /* đổi màu chữ khi lick vô */
+   .menu-logo nav a:hover{
+       color:rgb(251, 255, 252);
+       font-weight: bold;
+       background-color: rgb(116, 192, 228); 
+       padding: 19.5px;
+   }
+/*banner*/
+.banner {
+    width: 95%;
+    margin: 0 auto;
+    margin-top:120px ;
+}
+.banner img{
+max-width: 100%;
+border-radius: 20px;  /*bo góc*/
+}
+.row {
+    width: 100px;
+    font-size: 24px;
+    color: rgb(8, 8, 8);
+    margin: 0 auto;
+    text-align: center;
+    margin-left: 30%;
+}
+/*cột trái*/
+.leftcolumn{
+    float:left;
+    width:75%;
+}
+/* định dạng phần nội dung: thời trang unisex, sản phẩm bán chạy */
+.product .heading{
+    text-align:center;
+    color:rgb(163, 41, 41);
+    margin-top: 15px;
+}
+ 
+ /* hình ảnh bài viết*/
+ .images {
+    width: 90%; 
+    height: 250px; 
+ }
+ .product .images{
+     width: 25%;
+     height:250px;
+ }
+  /* định dạng thẻ cho bài viết màu sắc các ô thẻ*/
+  .card-news {
+    width: 24%;
+    background-color:rgba(226, 98, 98, 0.932);
+    padding: 20px;
+    margin: 20px;
+    float: left;
+   text-align: center;
+ }
+  /* clear float khác sau các cột*/
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+ }
+  /*hiệu ứng mờ ảnh khi di chuột vào ảnh*/
+  .card-news:hover img {
+    opacity: 0.4 ;
+    transform: scale(1.1);
+}
+ /*cột phải*/
+.rightcolumn{
+    float:right;
+    width: 25%;
+    background-color:rgb(180, 245, 237);
+    padding-top: 20px;
+    margin: 20px auto;
+   
+}
+.card{  
+    padding: 20px;
+    margin-top:20px;
+    text-align: center;
+ }
+/*định dạng video*/
+.cardvideo p{
+    padding: 1px;
+    margin: 1px;
+    text-align: center;
+    width:"400"; height:"200";
+    color:rgb(206, 45, 45);
+  }
+   /*định dạng hình ảnh cho phần heading2*/
+ .product .list-product .product-item img{
+    width:60%;
+    height: 250px;
+ }
+ /* Chữ Một số sản phẩm khác*/
+ .product .heading2{
+     font-size: 26px;
+     color:rgb(235, 221, 94);
+     text-align:center;
+     margin: auto;  
+     width: 90%;
+     background-color:rgb(17, 16, 16);
+     padding:2px;
+ }
+ /*sản phẩm 2*/
+ .product .list-product .product-item {
+        width:25%;
+        display: inline-block;
+        float: left;
+        text-align:center;
+        padding: 40px;
+        margin: 5px;
+ }
+ 
+ body{
+     background-color: rgb(243, 231, 231);
+ }
+ .product .list-product .product-item{
+     margin-left: 20px;
+    
+ }
+ /*hiệu ứng mờ ảnh khi di chột vào*/
+ .product .list-product .product-item:hover img{
+    opacity: .3; 
+    box-shadow: 15px 15px 15px rgb(7, 7, 7); 
+    background-color:rgb(24, 24, 24);
+    padding:0 5px;
+    transform: scale(1.2);
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+
+ }
+
+  /*định dạng xune.ze*/
+  .product .heading3{
+    COLOR:RED;
+    text-align-last: center;
+ }
+/*css footer*/
+.product .heading{ 
+    margin:15px auto ;}
+footer{
+    width: 100%;
+    color:rgb(249, 250, 218);
+    background:rgb(165, 50, 42);
+    text-align-last: center;
+}
+footer .footer-item{
+    width: 20%;/* căn khoảng cách nội dung*/
+    display: inline-block;
+    text-align-last: center;
+}  
+/*hover cho chữ ở cuối văn bản */
+footer .footer-item :hover{
+    color: #000;
+}
+footer .footer-item p{
+    margin: 10px;
+}
+footer .link a{
+    display: block;
+    text-decoration: none;
+    color:cornsilk;
+    margin: 10px;
+    text-align-last: center;
+}
+footer .about a{
+    display: block;
+    color:rgb(241, 248, 214);
+    text-decoration: none;
+    text-align: center;
+}
+.tacgia{
+    background:rgb(0, 0, 0);
+    color: rgb(247, 240, 240);
+    text-align: center;
+    padding: 10px;}
+
+   

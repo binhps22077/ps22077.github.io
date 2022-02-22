@@ -1,0 +1,127 @@
+/* định dạng font chữ*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+html{
+    font-family: 'Quicksand', sans-serif;
+}
+
+*{
+margin:0;
+padding: 0;
+
+}/* làm cố định header*/
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+}
+/* phan dau tien trong web*/
+.thongbao{
+    height: 45px;
+    font-size: 30px;
+    text-align: center;
+    background:#ddc8c8;
+    color:rgb(196, 0, 0);
+   
+   }
+   .logothuonghieu{
+    width:8%;
+
+}
+   /* phần menu*/
+   .menu-logo{
+       width: 100%;
+       height: 65px;
+       margin: 0 ;
+       background: #ee5353;
+       position: relative;
+      
+   }
+   .menu-logo .logo{
+       position:absolute;
+       left:200px;
+   }
+   .menu-logo nav a{
+       text-decoration: none;
+       color:#000000;
+       line-height:66px ;
+       margin:0 59px;
+       text-align: center;
+   }
+   /* đổi màu chữ khi lick vô */
+   .menu-logo nav a:hover{
+       color:rgb(251, 255, 252);
+       font-weight: bold;
+       background-color: rgb(116, 192, 228); 
+       padding: 19.5px;
+   }
+
+/*css footer*/
+.product .heading{ 
+    margin:15px auto ;}
+     /*định dạng xune.ze*/
+  .product .heading3{
+    COLOR:RED;
+    text-align-last: center;
+ }
+footer{
+    width: 100%;
+    color:rgb(249, 250, 218);
+    background:rgb(165, 50, 42);
+    text-align-last: center;
+}
+footer .footer-item{
+    width: 30%;/* căn khoảng cách nội dung*/
+    display: inline-block;
+    text-align-last: center;
+}  
+/*hover cho chữ ở cuối văn bản */
+footer .footer-item :hover{
+    color: #000;
+}
+footer .footer-item p{
+    margin: 10px;
+}
+footer .link a{
+    display: block;
+    text-decoration: none;
+    color:cornsilk;
+    margin: 10px;
+    text-align-last: center;
+}
+footer .about a{
+    display: block;
+    color:rgb(241, 248, 214);
+    text-decoration: none;
+    text-align: center;
+}
+.tacgia{
+    background:rgb(0, 0, 0);
+    color: rgb(247, 240, 240);
+    text-align: center;
+    padding: 10px;}
+/* giỏ hàng */
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 150px;
+    flex-direction: column;
+    text-align: center;
+}
+.row .chonsp{
+    color:#000000;
+    text-decoration: none;
+    font-size: 35px;
+
+}
+/* đổi màu cho chữ chọn sản phẩm */
+.row .chonsp:hover{
+    color:rgb(231, 61, 9);
+}
+/* chình màu sắc chữ cho chữ trong trang giỏ hàng */
+.row .text1{
+    color:#0f0f0f;
+    font-size:30px;
+}

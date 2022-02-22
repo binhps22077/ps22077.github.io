@@ -1,0 +1,214 @@
+/* định dạng font chữ*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+html{
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+*{
+margin:0;
+padding: 0;
+
+}/* làm cố định header*/
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+}
+/* phan dau tien trong web*/
+.thongbao{
+ height: 45px;
+ font-size: 30px;
+ text-align: center;
+ background:#ddc8c8;
+ color:rgb(196, 0, 0);
+
+}
+.logothuonghieu{
+    width:8%;
+
+}
+/* phần menu*/
+.menu-logo{
+    width: 100%;
+    height: 65px;
+    margin: 0 ;
+    background: #ee5353;
+    position: relative;
+   
+}
+.menu-logo .logo{
+    position:absolute;
+    left:200px;
+}
+.menu-logo nav a{
+    text-decoration: none;
+    color:#000000;
+    line-height:66px ;
+    margin:0 59px;
+    text-align: center;
+}
+/* đổi màu chữ khi lick vô */
+.menu-logo nav a:hover{
+    color:rgb(251, 255, 252);
+    font-weight: bold;
+    background-color: rgb(116, 192, 228); 
+    padding: 19.5px;
+}
+/*css footer*/
+.product .heading{ 
+    margin:15px auto ;}
+     /*định dạng xune.ze*/
+  .product .heading3{
+    COLOR:RED;
+    text-align-last: center;
+ 
+ }
+footer{
+    width: 100%;
+    color:rgb(249, 250, 218);
+    background:rgb(165, 50, 42);
+    text-align-last: center;
+}
+footer .footer-item{
+    width: 25%;/* căn khoảng cách nội dung*/
+    display: inline-block;
+    text-align-last: center;
+}  
+/*hover cho chữ ở cuối văn bản */
+footer .footer-item :hover{
+    color: #000;
+}
+footer .footer-item p{
+    margin: 10px;
+}
+footer .link a{
+    display: block;
+    text-decoration: none;
+    color:cornsilk;
+
+    text-align-last: center;
+}
+footer .about a{
+    display: block;
+    color:rgb(241, 248, 214);
+    text-decoration: none;
+    text-align: center;
+    
+}
+.tacgia{
+    background:rgb(0, 0, 0);
+    color: rgb(247, 240, 240);
+    text-align: center;
+    padding: 10px;}
+    /* định dạng chữ về chúng tôi */
+.main .heading{
+    padding: 100px;
+    text-align: center;
+    color:#be1919;
+    height: 20px;
+    width: 80%;
+    margin: 50px;
+    margin-bottom: 1px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 40px;
+}
+
+
+.main .images {
+   
+    display: flex;
+    gap: 0 20px;
+    padding: 0 0px;
+    width: 60%;
+    width: left 20%;
+    width:right 20%;
+    margin-right: 10PX;
+    margin-left: 10px;
+}
+.main .images .images-item .anh{
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+    margin-left: 50px
+    
+}
+/* định dạng hình ảnh về chúng tôi */
+.main .images .images-item{
+  margin:0px auto;
+}
+
+
+.main .images .images-item:hover{
+    transform:scale(1.1);
+    transition:all .3s linear;
+}
+/* định dạng cho chữ */
+
+.main .images .images-item .timhieu{
+    
+    top:80%;
+    left:150px;
+    color: rgb(187, 69, 40);
+    font-weight: bold;
+    text-decoration:none;
+    border: 4px solid rgb(71, 71, 71);
+    padding:10px 15px;
+    font-size:28px;
+    background-color: rgb(250, 230, 115);
+    margin: 125px;
+    margin-right: 40px;
+    margin-left: 170px;
+
+}
+.main .images .images-item .timhieu:hover{
+    top:80%;
+    left:50px;
+    color: rgb(187, 69, 40);
+    font-weight: bold;
+    text-decoration:none;
+    border: 4px solid rgb(54, 50, 50);
+    padding:10px 15px;
+    font-size:28px;
+    background-color: rgb(245, 215, 43);
+   
+}
+/* CHỮ  */
+.main .images .images-item .timhieu:hover{
+    background-color: rgb(235, 235, 235);
+    color:rgb(226, 226, 51);
+    border:4px solid rgb(167, 43, 43);
+    transition:all .3s linear;
+    
+}
+.main .images .images-item .timhieu:hover{
+    background-color: rgb(235, 235, 235);
+    color:rgb(226, 226, 51);
+    border:4px solid rgb(167, 43, 43);
+    transition:all .3s linear;
+}
+/* css content */
+.content{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+    
+}
+.content .content-item{
+    margin: 50px 0;
+}
+.content-item h4{
+    margin-bottom: 15px;
+}
+.anh2{
+   margin: 0 300px;
+}
+.content-item {
+    color:#be1919;
+    text-align: center;
+}
+body{
+    background-color: rgb(255, 251, 251);
+}
